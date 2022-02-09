@@ -1,0 +1,30 @@
+import react from "react";
+import Link from "../src/components/Link";
+
+
+function Title ({ children, as }){
+       const Tag = as;
+       return(
+           <react.Fragment>
+               <Tag>
+                   { children }
+               </Tag>
+               <style jsx>{`
+                  
+               `}</style>
+           </react.Fragment>
+       )
+}
+
+
+export default function HomePage() {
+    return(
+        <div>
+            <Title>Alura Cases - Home</Title>
+            <Link href="faq">
+            <a >ir para o faq</a>
+            </Link>
+            
+        </div>
+    )
+}
