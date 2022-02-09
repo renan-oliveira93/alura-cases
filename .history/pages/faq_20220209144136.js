@@ -1,3 +1,5 @@
+import Head from "next/head";
+import Link from "../src/components/Link";
 import FAQScreen from "../src/screens/FAQScreen";
 
 export default FAQScreen;
